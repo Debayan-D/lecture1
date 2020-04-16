@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      @media (min-wodth: 500px) {
+        h1::before {
+          content: "Welcome to My Webpage!";
+        }
+      }
+      @media (max-width: 499px) {
+        h1::before {
+          content: "Welcome"
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 text-align="center" font-weight="bold">Welcome to My Webpage!</h1>
+  </body>
+</html>
